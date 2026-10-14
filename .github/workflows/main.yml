@@ -1,6 +1,9 @@
 name: CI/CD
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+     - Unity-SimplePlatformer
 
 # This pipeline has two stages:
 #   1. build  — builds the project for WebGL with game-ci's unity-builder
